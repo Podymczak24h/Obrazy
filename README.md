@@ -1,3 +1,2 @@
 # Obrazy
-Obraz
-wrrrrr widzowie
+wrrrrr widzowie 
