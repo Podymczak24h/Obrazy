@@ -1,0 +1,42 @@
+{
+	"description" : "Water effect number 13",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Abstract" ],
+	"templateoptions" : 
+	[
+		{
+			"configured" : true,
+			"description" : "Replace the background image. It should contain water of some sort that you want to animate. The recommended image size is 1920 x 1080 pixels.",
+			"destination" : "materials/background.png",
+			"last" : "D:/forwall/5 (2).jpg",
+			"name" : "Background image",
+			"type" : "replacetexture"
+		},
+		{
+			"configured" : true,
+			"description" : "Replace the water flow map. The image can generally be a lot smaller than your background image, like 480 x 270, but the background image must be a multiple of this size. The red channel defines horizontal water flow, the green channel controls vertical water flow.",
+			"destination" : "materials/flowmask.png",
+			"last" : "D:/forwall/wwgqdg.gif",
+			"name" : "Water flow map",
+			"type" : "replacetexture"
+		}
+	],
+	"templatewizardshownonce" : true,
+	"title" : "Water effect 13 (Light sky)",
+	"type" : "scene",
+	"visibility" : "public"
+}
